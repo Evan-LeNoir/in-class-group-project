@@ -1,22 +1,13 @@
-import { Header, Main, Footer } from "./Components";
+import { Header, Nav,  Main, Footer } from "./Components";
 
-const render = () => {
-  document.querySelector("#root").innerHTML = `
-  ${Header()}
-  ${Main()}
-  ${Footer()}
-  `;
-};
-render();
-
-// add menu toggle to bars icon in nav bar
-import { Nav, Main } from "./Components";
 import * as state from "./store";
 
 const render = (st = state.Home) => {
   document.querySelector("#root").innerHTML = `
+  ${Header()}
   ${Nav(state.Links)}
   ${Main(st)}
+  ${Footer()}
   `;
 }
 
