@@ -1,4 +1,5 @@
 export default st =>`
+<link rel="stylesheet" type="text/css" href="../Components/styles/EvanLeNoir.css">
 <h1>Evan LéNoir</h1>
 <hr>
   <h2>Bio:</h2>
