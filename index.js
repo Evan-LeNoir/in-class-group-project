@@ -1,7 +1,8 @@
-import { nav } from "./Components/Nav.js";
+
 import Navigo from "navigo";
 import { Header, Nav, Main, Footer } from "./components";
 import { capitalize } from "lodash";
+import * as state from "./store";
 
 const router = new Navigo(window.location.origin).resolve();
 
@@ -12,20 +13,12 @@ router
   })
     .resolve()
 
-
-// add menu toggle to bars icon in nav bar
-import { Nav, Main } from "./Components";
-import * as state from "./store";
-
 const render = (st = state.Home) => {
   document.querySelector("#root").innerHTML = `
   ${Nav(state.Links)}
   ${Main(st)}
   `;
 }
-
-render(state.Home);
-
 
 document.querySelector(".fa-bars").addEventListener("click", () => {
   document.querySelector("nav > ul").classList.toggle("hidden--mobile");
