@@ -1,14 +1,14 @@
 export default [
-{ title: "Brandonbunch.js", text: "Brandonbunch.js"},
-{ title: "Brian.js", text: "Brian.js"},
-{ title: "Charlesbarringer.js", text: "Charlesbarringer.js"},
-{ title: "Evanlenoir.js", text: "Evanlenoir.js"},
-{ title: "Jasonbrandenburger.js", text: "Jasonbrandenburger"},
-{ title: "Joespector.js", text: "Joespector.js"}
-{ title: "Jondove.js", text: "Jondove.js"}
-{ title: "Josephjordan.js", text: "Josephjordan.js"}
-{ title: "Joshuadeeke.js", text: "Joshuadeeke.js"}
-{ title: "Justinwhite.js", text: "Justinwhite.js"}
-{ title: "Laurenkye.js", text: "Laurenkye.js"}
-{ title: "Lillianblair.js", text: "Lillianblair.js"}
+{ title: "BrandonBunch", text: "Brandon Bunch"},
+{ title: "Brian", text: "Brian"},
+{ title: "CharlesBarringer", text: "Charles Barringer"},
+{ title: "EvanLenoir", text: "Evan Lenoir"},
+{ title: "JasonBrandenburger", text: "Jason Brandenburger"},
+{ title: "JoeSpector", text: "Joe Spector"}
+{ title: "JonDove", text: "Jon Dove"}
+{ title: "JosephJordan", text: "Joseph Jordan"}
+{ title: "JoshuaDeeke.js", text: "Joshua Deeke"}
+{ title: "JustinWhite.js", text: "Justin White"}
+{ title: "LaurenKye.js", text: "Lauren Kye"}
+{ title: "LillianBlair.js", text: "Lillian Blair"}
 ];
