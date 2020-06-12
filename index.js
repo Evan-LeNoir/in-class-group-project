@@ -1,14 +1,16 @@
-import { nav } from "./nav.js";
+import { nav } from "./Components/Nav.js";
 import Navigo from "navigo";
 import { Header, Nav, Main, Footer } from "./components";
+import { capitalize } from "lodash";
 
 const router = new Navigo(window.location.origin).resolve();
 
 router
   .on({
-    "/": () => render(nav).resolve()
-  }).resolve();
-function render(Home)
+    ":page": params => render(state[capitilize(params.page)]),
+    "/": ( => render(state.Home)
+  })
+    .resolve()
 
 
 // add menu toggle to bars icon in nav bar
