@@ -1,4 +1,3 @@
-
 import Navigo from "navigo";
 import { Header, Nav, Main, Footer } from "./components";
 import { capitalize } from "lodash";
@@ -15,8 +14,10 @@ router
 
 const render = (st = state.Home) => {
   document.querySelector("#root").innerHTML = `
+  ${Header(st)}
   ${Nav(state.Links)}
   ${Main(st)}
+  ${Footer()}
   `;
 }
 
